@@ -23,6 +23,18 @@ ScrapeFun-setup.exe
 - 不内嵌桌面 WebView，不需要单独打开桌面 client。
 - 支持开机启动、局域网访问、查看数据目录和日志目录。
 
+## 初始密码
+
+首次启动后，初始密码会写在日志里。
+
+可以右键右下角托盘图标，选择 `Show Logs Directory` 打开日志目录，然后查看日志文件中的初始密码提示。
+
+日志目录默认位于：
+
+```text
+%APPDATA%\ScrapeFunDesktop\logs
+```
+
 ## 数据位置
 
 运行数据默认保存在：
